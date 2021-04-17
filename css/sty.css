@@ -1,0 +1,145 @@
+
+    body {
+        
+        margin: 0px auto;
+        padding: 100px 10px;
+        background-color: grey;
+        height: 100vh;
+        
+    }
+    
+
+#container{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    
+    width: inherit;
+    width: 42%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 40px 79px;
+    
+    
+    
+}
+#container header{
+    /* background-color: red; */
+    padding: 10px 0px;
+}
+#container h2{
+    text-transform: uppercase;
+    font-size: 400;
+    color: rgb(16, 16, 131);
+    font-size: 19px;
+    margin-top: 0px;
+
+}
+
+span, #text_below{
+    color: grey;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+#container header .demacation_bar{
+    border-right: solid 2px grey;
+    margin-right: 0px;
+    color: grey;
+    padding-right: 2px;
+    display: inline-block;
+    padding-left: 2px;
+}
+ul{
+    /* line-height: 25px; */
+}
+ul li, p{
+    font-size: 15px;
+}
+ul.no_style{
+    list-style: none;
+    margin-left:-40px;
+    margin-top: -5px;
+}
+hr{
+    color:rgb(16, 16, 131) ;
+    border: 1px solid rgb(16, 16, 131);
+}
+hr#big{
+    border: 2px solid rgb(16, 16, 131);
+}
+/* media querry for iphone 5,8, galaxy S5, Moto G5 */
+@media screen and (max-width:480px){
+    body {
+        
+        background-color: white;
+        
+    }
+    #container header{
+        /* background-color: red; */
+        padding: 0px;
+    }
+    
+
+#container{
+    
+    
+    font-size: 11px;
+    width: 100%;
+    background-color: white;
+    padding: 0px 10px;
+    margin: 0px;
+    
+    
+    
+}
+#container h2{
+    text-transform: uppercase;
+    font-size: 400;
+    color: rgb(16, 16, 131);
+    font-size: 13px;
+    margin-top: 0px;
+
+}
+ul li{
+    font-size: 11px;
+}
+
+span{
+    font-size: 8px;
+}
+}
+/* media querry for ipad */
+@media screen and (max-width:768px) {
+    body{
+        background-color: white;
+    }
+
+    #container{
+    
+    
+        font-size: 12px;
+        margin: 0px auto;
+        width: 95%;
+        background-color: white;
+        padding: 50px 50px;
+        margin: 0px;
+        box-sizing: border-box;
+     
+    }
+    #container h2{
+        font-size: 20px;
+    }
+    ul li{
+        font-size: 20px;
+    }
+    span,  #text_below{
+        font-size: 16px;
+    }
+    p{
+        font-size: 20px;
+    }
+    
+}
