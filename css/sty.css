@@ -71,6 +71,7 @@ hr#big{
     border: 2px solid rgb(16, 16, 131);
 }
 /* media querry for iphone 5,8, galaxy S5, Moto G5 */
+
 @media screen and (max-width:480px){
     body {
         
@@ -112,7 +113,7 @@ span{
 }
 }
 /* media querry for ipad */
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
     body{
         background-color: white;
     }
